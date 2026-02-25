@@ -1,5 +1,7 @@
 # 🚦 Routing-Graph Microservice (8081)
 
+[![Java CI](https://github.com/praveen-1998-dev/routeX-graph/actions/workflows/ci.yml/badge.svg)](https://github.com/praveen-1998-dev/routeX-graph/actions/workflows/ci.yml)
+
 ## Project Overview
 
 **Routing-Graph** is a **helper microservice** for CoreRouteX. It maintains a **weighted graph of edges** and calculates **shortest paths** between locations using **Dijkstra’s algorithm**.
@@ -19,6 +21,7 @@
 |------------|--------------------------------|
 | Framework  | Spring Boot 3                  |
 | Database   | H2 (in-memory)                 |
+| Testing    | JUnit 5, Mockito               |
 | Build      | Maven                           |
 | Communication | REST API                     |
 | Logging    | SLF4J                           |
