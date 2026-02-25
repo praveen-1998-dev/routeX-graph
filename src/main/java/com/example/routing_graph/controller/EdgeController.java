@@ -38,7 +38,7 @@ public class EdgeController {
         return ResponseEntity.ok(edgeService.getAllEdges());
     }
 
-    // Get shortest distance between two locations
+    // Get shortest distance between two location
     @GetMapping("/shortest-distance")
     public ResponseEntity<Map<String, Object>> getShortestDistance(
             @RequestParam String from,

@@ -14,7 +14,6 @@ public class EdgeService {
     public EdgeService(EdgeRepository edgeRepository) {
         this.edgeRepository = edgeRepository;
     }
-
     // ---------- 1️⃣ Save edge to DB ----------
     public Edge saveEdge(Edge edge) {
         return edgeRepository.save(edge);
