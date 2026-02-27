@@ -1,4 +1,4 @@
-# 🚦 Routing-Graph Microservice (8081)
+# 🚦 Routing-Graph Microservice 
 
 [![Java CI](https://github.com/praveen-1998-dev/routeX-graph/actions/workflows/ci.yml/badge.svg)](https://github.com/praveen-1998-dev/routeX-graph/actions/workflows/ci.yml)
 
@@ -33,9 +33,12 @@
 ```text
 +-------------------+
 |  Routing-Graph    |
-|   (Port 8081)     |
+|  Internal - 8080  |
+|   Host - 8081     |
 +-------------------+
 | - Graph Edges     |
 | - Shortest Path   |
 | - Dijkstra Algo   |
 +-------------------+
+Runs on port 8080 internally. When running with Docker,
+it is exposed as port 8081 on the host machine.
